@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "description": "My portfolio",
+  "main": "index.res",
+  "author": "Kurt M. Ma. Coll",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/react": "^0.10.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rescript": "^9.1.4",
+    "vite": "^2.4.4"
+  }
+}
