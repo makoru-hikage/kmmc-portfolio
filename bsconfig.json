@@ -1,0 +1,19 @@
+{
+  "name": "sasquare-reasonml",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "es6"
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@rescript/react"
+  ]
+}
