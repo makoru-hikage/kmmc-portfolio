@@ -6,6 +6,7 @@
   "author": "Kurt M. Ma. Coll",
   "license": "MIT",
   "scripts": {
+    "start:re": "rescript build -w -with-deps",
     "dev": "vite",
     "build": "rescript && vite build",
     "preview": "vite preview",
