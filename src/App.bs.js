@@ -4,13 +4,16 @@ import * as Home from "./components/Home.bs.js";
 import * as React from "react";
 import * as ReactDom from "react-dom";
 
+import '../styles/main.css'
+;
+
 var root = document.querySelector("#root");
 
 if (!(root == null)) {
-  ReactDom.render(React.createElement("div", undefined, React.createElement(Home.make, {})), root);
+  ReactDom.render(React.createElement(Home.make, {}), root);
 }
 
 export {
   
 }
-/* root Not a pure module */
+/*  Not a pure module */

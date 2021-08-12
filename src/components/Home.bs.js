@@ -4,6 +4,7 @@ import * as React from "react";
 
 function Home(Props) {
   return React.createElement("div", {
+              className: "text-green-600 hover:text-red-700",
               id: "home"
             }, "Perhaps");
 }
