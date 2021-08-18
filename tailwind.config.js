@@ -1,9 +1,16 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
-    extend: {},
+    backgroundColor: theme => ({
+      ...theme('colors'),
+      'charlotte': '#b5f2fb',
+      'mirage': '#18262f',
+      'danube': '#68afd5',
+      'steel-blue': '#4682a8'
+    })
   },
   variants: {},
   plugins: [],
+  important: true
 }

@@ -4,6 +4,7 @@ import * as React from "react";
 
 function Home(Props) {
   return React.createElement("div", {
+              className: "text-black dark:text-white",
               id: "home"
             }, React.createElement("div", {
                   id: "top-bar"

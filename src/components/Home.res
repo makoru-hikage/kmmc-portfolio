@@ -2,7 +2,7 @@
 let make = () => {
   let myName = "Kurt M. Ma. Coll"
   let myDesc = "A software developer who specialises in web backend and databases"
-  <div id="home">
+  <div id="home" className={"text-black dark:text-white"}>
     <div id="top-bar">
       <button></button>
       <div id="top-email"></div>
