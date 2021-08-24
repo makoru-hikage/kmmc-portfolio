@@ -1,6 +1,6 @@
 @react.component
 let make = () => {
-  <div className={"text-black dark:text-white relative w-full h-screen"}>
+  <div className={"text-black dark:text-white w-full h-full"}>
     <nav className={"fixed min-w-full"}>
       <div id="top-bar" className={"px-8 h-1/5 skel-outline"}>
         <div className={"flex justify-between skel-outline"}>

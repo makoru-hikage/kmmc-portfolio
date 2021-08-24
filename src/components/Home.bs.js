@@ -4,17 +4,20 @@ import * as React from "react";
 
 function Home(Props) {
   return React.createElement("div", {
-              className: "skel-outline",
+              className: "relative skel-outline w-full h-screen flex flex-column justify-center items-center",
               id: "home"
             }, React.createElement("div", {
                   id: "home-title"
                 }, React.createElement("div", {
                       id: "home-name"
-                    }, "Kurt M. Ma. Coll"), React.createElement("div", {
+                    }, React.createElement("h1", {
+                          className: "text-5xl font-headline"
+                        }, "Kurt M. Ma. Coll")), React.createElement("div", {
                       id: "description"
-                    }, "A software developer who specialises in web backend and databases")), React.createElement("div", {
-                  id: "sdtc"
-                }, "(Scroll down to continue.)"));
+                    }, "A software developer who specialises in web backend and databases"), React.createElement("div", {
+                      className: "justify-self-end",
+                      id: "sdtc"
+                    }, "(Scroll down to continue.)")));
 }
 
 var make = Home;

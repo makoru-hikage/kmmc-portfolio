@@ -5,7 +5,7 @@ import * as React from "react";
 
 function Index(Props) {
   return React.createElement("div", {
-              className: "text-black dark:text-white relative w-full h-screen"
+              className: "text-black dark:text-white w-full h-full"
             }, React.createElement("nav", {
                   className: "fixed min-w-full"
                 }, React.createElement("div", {
