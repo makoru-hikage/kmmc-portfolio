@@ -2,15 +2,15 @@
 let make = () => {
   let myName = "Kurt M. Ma. Coll"
   let myDesc = "A software developer who specialises in web backend and databases"
-  <div id="home" className={"relative skel-outline w-full h-screen flex flex-column justify-center items-center"}>
+  <div id="home" className={"relative w-full h-screen flex flex-col justify-center"}>
     <div id="home-title">
-      <div id="home-name">
+      <div id="home-name" className={"flex flex-col justify-start items-center"}>
         <h1 className={"text-5xl font-headline"}>{React.string(myName)}</h1>
-      </div>
-      <div id="description">
         {React.string(myDesc)}
       </div>
-      <div id="sdtc" className={"justify-self-end"}>{React.string("(Scroll down to continue.)")}</div>
+      <div id="sdtc" className="flex flex-col place-content-center place-items-center">
+        <div className="animate-pulse">{React.string("(Scroll down to continue.)")}</div>
+      </div>
     </div>
   </div>
 }
