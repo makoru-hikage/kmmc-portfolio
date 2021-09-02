@@ -8,7 +8,7 @@ let make = () => {
         <h1 className={"text-5xl font-headline"}>{React.string(myName)}</h1>
         {React.string(myDesc)}
       </div>
-      <div id="sdtc" className="flex flex-col place-content-center place-items-center">
+      <div id="sdtc" className="relative top-2/4 flex flex-col place-content-center place-items-center">
         <div className="animate-pulse">{React.string("(Scroll down to continue.)")}</div>
       </div>
     </div>

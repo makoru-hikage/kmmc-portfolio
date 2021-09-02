@@ -14,7 +14,7 @@ function Home(Props) {
                     }, React.createElement("h1", {
                           className: "text-5xl font-headline"
                         }, "Kurt M. Ma. Coll"), "A software developer who specialises in web backend and databases"), React.createElement("div", {
-                      className: "flex flex-col place-content-center place-items-center",
+                      className: "relative top-2/4 flex flex-col place-content-center place-items-center",
                       id: "sdtc"
                     }, React.createElement("div", {
                           className: "animate-pulse"
