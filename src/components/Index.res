@@ -2,9 +2,10 @@
 let make = () => {
   <div className={"text-black dark:text-white w-full h-full"}>
     <nav className={"fixed min-w-full"}>
-      <div id="top-bar" className={"px-8 h-1/5 skel-outline"}>
-        <div className={"flex justify-between skel-outline"}>
-          <div><button className="text-black dark:text-white">{React.string("Dark Mode")}</button></div>
+      <div id="top-bar" className={"px-8 h-1/5"}>
+        <div className={"flex justify-between"}>
+          <div><button className="text-black dark:text-white hidden dark:block">{React.string("Dark Mode")}</button>
+          <button className="text-black dark:text-white dark:hidden">{React.string("Light Mode")}</button></div>
           <div id="top-email"></div>
           <div id="socmed-links" className={"flex items-center space-x-1"}>
             <svg className={"dark:text-white text-black fill-current h-8 w-8"} viewBox="0 0 24 24">

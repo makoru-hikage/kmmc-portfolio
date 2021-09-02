@@ -10,7 +10,11 @@ module.exports = {
       'steel-blue': '#4682a8'
     })
   },
-  variants: {},
+  variants: {
+    extend: {
+      display: ['dark']
+    }
+  },
   plugins: [],
   important: true
 }

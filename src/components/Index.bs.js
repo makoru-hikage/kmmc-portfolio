@@ -9,13 +9,15 @@ function Index(Props) {
             }, React.createElement("nav", {
                   className: "fixed min-w-full"
                 }, React.createElement("div", {
-                      className: "px-8 h-1/5 skel-outline",
+                      className: "px-8 h-1/5",
                       id: "top-bar"
                     }, React.createElement("div", {
-                          className: "flex justify-between skel-outline"
+                          className: "flex justify-between"
                         }, React.createElement("div", undefined, React.createElement("button", {
-                                  className: "text-black dark:text-white"
-                                }, "Dark Mode")), React.createElement("div", {
+                                  className: "text-black dark:text-white hidden dark:block"
+                                }, "Dark Mode"), React.createElement("button", {
+                                  className: "text-black dark:text-white dark:hidden"
+                                }, "Light Mode")), React.createElement("div", {
                               id: "top-email"
                             }), React.createElement("div", {
                               className: "flex items-center space-x-1",
